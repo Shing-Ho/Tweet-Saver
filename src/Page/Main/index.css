@@ -1,0 +1,19 @@
+.app {
+  padding: 20px;
+  height: 100vh;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.dragTweetText {
+  position: absolute;
+  left: 45%;
+  top: 400px;
+  width: 10%;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
