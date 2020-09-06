@@ -13,11 +13,11 @@ function Main() {
       <Header />
       <DndProvider backend={HTML5Backend}>
         <div className="main">
+          <Left />
           <div className="dragTweetText">
             <div>Drag tweets</div>
             <div>to save</div>
           </div>
-          <Left />
           <Right />
         </div>
       </DndProvider>
